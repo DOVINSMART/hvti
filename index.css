@@ -350,14 +350,14 @@ float:left;
 
 
 #A #left #headr{
-border:1px solid #00b0f0;
+border:1px solid #FF3300;
 width:30px;
 float:left;
 }
 
 
 #A #left button{
-background:#00b0f0;
+background:#FF3300;
 border:none;
 padding:4%;
 font-size:1.1em;
@@ -372,7 +372,7 @@ border-radius:5px;
 #A #right #turtle{
 width:550px;
 height:400px;
-background:#00b0f0;
+background:#FF3300;
 position:relative;
 }
 
@@ -413,14 +413,14 @@ padding-bottom:10%;
 }
 
 #B #threee{
-color:#00b0f0;
+color:#FF3300;
 text-align:center;
 }
 
 #B #headr{
-border:1.5px solid #00b0f0;
+border:1.5px solid #FF3300;
 width:100px;
-background:#00b0f0;
+background:#FF3300;
 //float:left;
 }
 
@@ -520,13 +520,13 @@ text-align:center;
 
 #C #takebelow h3{
 text-align:center;
-color:#00b0f0;
+color:#FF3300;
 }
 
 #C #takebelow #martin{
 width:50px;
-border:1.5px solid #00b0f0;
-background:#00b0f0;
+border:1.5px solid #FF3300;
+background:#FF3300;
 }
 
 #C #takebelow p{
@@ -539,7 +539,7 @@ width:70%;
 
 
 #C #takebelow button{
-background:#00b0f0;
+background:#FF3300;
 color:#fff;
 border:none;
 border-radius:5px;
