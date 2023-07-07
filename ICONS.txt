@@ -1,0 +1,28 @@
+/==========================================
+            -ICONS-
+===========================================/
+
+
+<i class="fab fa-facebook-square"></i>
+
+<i class="fab fa-twitter"></i>
+
+<i class="fab fa-twitter-square"></i>
+
+<i class="fas fa-map-marked-alt"></i>
+
+<i class="fas fa-phone-alt"></i>
+
+<i class="fab fa-instagram-square"></i>
+
+<i class="fas fa-envelope"></i>
+
+<i class="fab fa-whatsapp-square"></i>
+
+<i class="fab fa-whatsapp"></i>
+
+<i class="fas fa-lock-open"></i>
+
+<i class="fas fa-user-lock"></i>
+
+<i class="fas fa-key"></i>

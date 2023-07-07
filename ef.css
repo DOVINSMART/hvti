@@ -1,0 +1,261 @@
+#E{
+background:#181717;
+display:flex;
+padding-top:50px;
+padding-bottom:50px;
+}
+
+#E #sleft{text-align:left;}
+
+#E #sleft h1{
+font-size:4.5em;
+width:80%;
+padding:20px;
+color:#7F7F7F;
+//background:red;
+}
+
+#E #sleft #hh{
+width:20%;
+border:3px solid #7f7f7f;
+margin-left:110px;
+}
+
+#E #sright{
+padding:20px;
+text-align:center;
+}
+
+#E #sright p{
+color:#7F7F7F;
+font-size:2.5em;
+width:50%;
+text-align:center;
+padding-bottom:20px;
+}
+
+#E #sright button{
+text-align:center;
+font-size:1.5em;
+padding:25px;
+background:#404040;
+border:none;
+cursor:pointer;
+color:#bbb;
+}
+
+
+#F{
+padding-top:0px;
+background:#404040;
+height:105vh;
+overflow:hidden;
+}
+
+
+#F #toper{
+display:flex;
+justify-content:center;
+align-items:center;
+width:100%;
+}
+
+
+#F #toper .pad{
+background:transparent;
+width:600px;
+text-align:center;
+position:relative;
+transition:.5s;
+}
+
+
+#F #toper .pad .slideshow {
+background:transparent;
+width:528px;
+height:400px;
+}
+
+#F #toper .pad .slideshow img{
+width:528px;
+height:400px;
+object-fit:cover;
+animation:chang 0.7s ease-in-out;
+margin-top:0;
+}
+
+
+
+@keyframes chang{
+0%{margin-top:20px;opacity:1;}
+100%{margin-top:0; opacity:1;}
+}
+
+
+#F #toper .pad .slideshow .slide{
+position:relative;
+}
+
+
+
+
+
+#F #toper .pad .slideshow button{
+position:absolute;
+z-index:5%;
+top:50;
+right:15;
+border:none;
+border-radius:50px;
+width:150px;
+height:40px;
+animation:chan 1s ease-in-out;
+background:#FF3300;
+color:#Fff;
+cursor:pointer;
+}
+
+
+
+
+
+@keyframes chan{
+0%{right:-30;opacity:0.1;}
+100%{right:15; opacity:1;}
+}
+
+
+#F #toper .pad .padtect{
+background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.3),rgba(0,0,0,0.5),rgba(0,0,0,0.8),rgba(0,0,0,0.9));
+position:absolute;
+bottom:0;
+width:100%;
+height:18vh;
+color:#fff;
+}
+
+
+#F #toper .pad .padtect h1{
+text-align:left;
+padding-left:15px;
+padding-top:60px;
+font-size:3.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#F #bottomer{
+display:flex;
+justify-content:center;
+align-items:center;
+width:100%;
+}
+
+
+#F #bottomer .pads{
+background:#404040;
+width:600px;
+text-align:center;
+position:relative;
+transition:.5s;
+}
+
+
+#F #bottomer .pads .slideshow {
+background:transparent;
+width:528px;
+height:400px;
+
+}
+
+#F #bottomer .pads .slideshow img{
+width:528px;
+height:400px;
+object-fit:cover;
+animation:chang 0.7s ease-in-out;
+margin-top:0;
+}
+
+
+
+@keyframes chang{
+0%{margin-top:20px;opacity:1;}
+100%{margin-top:0; opacity:1;}
+}
+
+
+
+
+#F #bottomer .pads .padtect{
+background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.3),rgba(0,0,0,0.5),rgba(0,0,0,0.8),rgba(0,0,0,0.9));
+position:absolute;
+bottom:0;
+width:100%;
+height:18vh;
+color:#fff;
+}
+
+
+#F #bottomer .pads .padtect h1{
+text-align:left;
+padding-left:15px;
+padding-top:60px;
+font-size:3.5em;
+}
+
+
+
+#F #bottomer .pads .slideshow button{
+position:absolute;
+z-index:5%;
+top:50;
+right:15;
+border:none;
+border-radius:50px;
+width:150px;
+height:40px;
+animation:chan 1s ease-in-out;
+background:#FF3300;
+color:#fff;
+cursor:pointer;
+}
+
+
+@keyframes chan{
+0%{right:-30;opacity:0.1;}
+100%{right:15; opacity:1;}
+}
+
